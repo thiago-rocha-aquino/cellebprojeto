@@ -1,0 +1,46 @@
+.bg-imagem {
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_960_720.jpg);
+  height: 48vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-imagem p {
+  text-shadow: 4px 4px 8px black;
+  font-size: 4vw;
+}
+/* redefinidno as cores do nav */
+
+.active {
+  background: deepskyblue;
+}
+
+.nav-link,
+.dropdown-item {
+  color: white !important;
+}
+
+.nav-link:hover:not(.active),
+.dropdown-item:hover {
+  background-color: blueviolet;
+  color: white !important;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+footer {
+  height: 50px;
+}
+
+/* estilo agenda */
+
+#agenda th {
+  height: 100px;
+  width: 14.29%;
+}
+
+#agenda td.bg-info {
+  color: white !important;
+}
